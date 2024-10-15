@@ -1,16 +1,14 @@
 /* Write Your CSS Below 
 Colors: 
-- rgb(243, 183, 106)
 - yellow
-- rgb(241, 117, 0)
 - red
-- #f3b76a
-- #f17500
-- #0d6e00
-- #6d00fb
-- #dbff39
-- #74c9f1
-- #fb4040
+- #f3b76a Orange cream
+- #f17500 Bright orange
+- #0d6e00 Dark green
+- #6d00fb Violet
+- #dbff39 Lime green
+- #74c9f1 Sky blue
+- #fb4040 Coral red
 
 Sizes: 
 - 100%
@@ -27,3 +25,66 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+.bg{
+    background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: fantasy copperplate;
+    font-size: 3rem;
+    color: #6d00fb;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 2px 2px 10px #dbff39;
+    background-image: linear-gradient(#74c9f1, #fb4040);
+    background-position: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5em;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+#row1{
+    float: left;
+    margin-top: 50px;
+}
+#row2{
+    float: right;
+    margin-top: 50px;
+}
+#jordans-1{
+    box-shadow: 5px 0px 10px darkblue;
+    border: 2px solid darkblue;
+}
+#jordans-2{
+    box-shadow: -5px 0px 10px #f17500;
+    border: 2px solid #f17500;
+}
+#jordans-1-desc{
+    font-family: "Bebas Neue";
+    font-size: 1.5rem;
+    color: white;
+    background-color: #74c9f1;
+    border: 10px solid #f3b76a;
+    border-width: medium;
+    border-radius: 0.5em;
+    text-align: center;
+    width: 580px;
+    padding: 10px
+}
+#jordans-2-desc{
+    font-family: "Bebas Neue";
+    font-size: 1.5rem;
+    color: white;
+    background-color: #fb4040;
+    border: 10px solid #0d6e00;
+    border-width: medium;
+    border-radius: 0.5em;
+    text-align: center;
+    width: 580px;
+    padding: 10px;
+}
